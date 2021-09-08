@@ -131,7 +131,9 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(arr, string) {
-  /*your code here*/
+  let flavorLocation = arr.indexOf(string);
+  arr.splice(flavorLocation, 1);
+  return arr;
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
